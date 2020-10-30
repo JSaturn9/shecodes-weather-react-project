@@ -1,11 +1,11 @@
 import React from "react";
 import "./Weather.css";
-import Forecast from "./Forecast";
+
 
 export default function Weather() {
   let weatherData = {
     city: "Montpelier",
-    temperature: 52,
+    temperature: 39,
     date: "Friday 18:00",
     description: "Clear",
     imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
@@ -69,7 +69,71 @@ export default function Weather() {
           </div>
         </div>
         <div className="row weather-forecast">
-            <Forecast />
+            <div className="col-2">
+                <ul>
+                    <li>
+                        Fri
+                    </li>
+                    <li>
+                        Icon
+                    </li>
+                    <li>
+                        40°F
+                    </li>
+                </ul>
+            </div>
+            <div className="col-2">
+                <ul>
+                    <li>
+                        Sat
+                    </li>
+                    <li>
+                        Icon
+                    </li>
+                    <li>
+                        43°F
+                    </li>
+                </ul>
+            </div>
+            <div className="col-2">
+                <ul>
+                    <li>
+                        Sun
+                    </li>
+                    <li>
+                        Icon
+                    </li>
+                    <li>
+                        50°F
+                    </li>
+                </ul>
+            </div>
+            <div className="col-2">
+                <ul>
+                    <li>
+                        Mon
+                    </li>
+                    <li>
+                        Icon
+                    </li>
+                    <li>
+                        35°F
+                    </li>
+                </ul>
+            </div>
+            <div className="col-2">
+                <ul>
+                    <li>
+                        Tue
+                    </li>
+                    <li>
+                        Icon
+                    </li>
+                    <li>
+                        33°F
+                    </li>
+                </ul>
+            </div>
         </div>
       </div>
     </div>
