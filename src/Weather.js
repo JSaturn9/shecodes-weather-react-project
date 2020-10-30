@@ -1,5 +1,6 @@
 import React from "react";
 import "./Weather.css";
+import ReactAnimatedWeather from "react-animated-weather";
 
 
 export default function Weather() {
@@ -75,7 +76,12 @@ export default function Weather() {
                         Fri
                     </li>
                     <li>
-                        Icon
+                    <ReactAnimatedWeather
+        icon="CLEAR_DAY"
+        color="#0f4c75"
+        size={25}
+        animate={true}
+      />
                     </li>
                     <li>
                         40°F
@@ -88,7 +94,12 @@ export default function Weather() {
                         Sat
                     </li>
                     <li>
-                        Icon
+                    <ReactAnimatedWeather
+        icon="CLEAR_DAY"
+        color="#0f4c75"
+        size={25}
+        animate={true}
+      />
                     </li>
                     <li>
                         43°F
@@ -101,7 +112,12 @@ export default function Weather() {
                         Sun
                     </li>
                     <li>
-                        Icon
+                    <ReactAnimatedWeather
+        icon="RAIN"
+        color="#0f4c75"
+        size={25}
+        animate={true}
+      />
                     </li>
                     <li>
                         50°F
@@ -114,7 +130,12 @@ export default function Weather() {
                         Mon
                     </li>
                     <li>
-                        Icon
+                    <ReactAnimatedWeather
+        icon="SNOW"
+        color="#0f4c75"
+        size={25}
+        animate={true}
+      />
                     </li>
                     <li>
                         35°F
@@ -127,7 +148,12 @@ export default function Weather() {
                         Tue
                     </li>
                     <li>
-                        Icon
+                    <ReactAnimatedWeather
+        icon="SNOW"
+        color="#0f4c75"
+        size={25}
+        animate={true}
+      />
                     </li>
                     <li>
                         33°F
